@@ -1,2 +1,2 @@
 # R-Programlama-Ders-Notlar-Veri-Bilimi
-###### Veri analizi için gerekli olan hatırlatmaları bulabilirsiniz.
+#### Veri analizi için gerekli olan hatırlatmaları bulabilirsiniz.

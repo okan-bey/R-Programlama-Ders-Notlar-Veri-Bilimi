@@ -1,30 +1,30 @@
-## Vekt??rlerden eleman ????karma
+## Vektörlerden eleman çıkarma
 x <- c(12,13,14,15,16)
 x
 
-# Eleman Se??imi
+# Eleman Seçimi
 x[1]
 x[5]
 
-# Eleman?? indexe g??re ????karma i??lemi
-x[-1] #1.eleman?? ????kart??r
-x[-5] #5.eleman?? ????kart??r
+# Elemandan indexe göre çıkarma işlemi
+x[-1] #1.elemanı çıkartır
+x[-5] #5.elemanı çıkartır
 
-# Unutma ! ????karma i??lemini kal??c?? hale getirmek i??in tekrar de??i??kene atamal??s??n.
+# Unutma ! çıkarma işlemini kalıcı hale getirmek için tekrar değişkene atamalısın.
 
 x = x[-1]
 x = x[-4]
 x
 
 x <- c(12,13,14,15,16)
-y <- x[-1] #????kar??lm???? elemanl?? diziyi ba??ka bir de??i??kene atayabilirsiniz.
+y <- x[-1] çıkarılmış elemanlı diziyi başka bir değişkene atayabilirsiniz.
 y
 # NOT: 
-# Tek sat??rda bir den fazla komut ??al????t??rmak i??in x;y kullanabilirsin.
+# Tek satırda bir den fazla komut çalıştırmak için x;y kullanabilirsin.
 x;y
 
-x[c(1,2,3)] # 1.2. ve 3.indisleri bu ??ekilde ??a????rabilirsin.
-x[c(-1,-2,-3)]# ????karma i??lemi de ayn?? ??ekilde yap??l??r.
+x[c(1,2,3)] # 1.2. ve 3.indisleri bu şekilde çıkartabilirsin.
+x[c(-1,-2,-3)]# çıkarma işlemi de aynı şekilde yapılır.
 
 #Buraya dikkat et !
 cikartilacakindex <- c(2,3,1)
@@ -34,11 +34,11 @@ c <- x[-cikartilacakindex]
 c
 
 1:3 # 1 den 3'e kadar dizi olu??turur.
-x[1:3] #x dizisinden 1 den 3 e kadar olan elemanlar?? se??er.
+x[1:3] #x dizisinden 1 den 3 e kadar olan elemanlar se??er.
 
-# Ard??????k indexleri ????kartma
+# Ardışık indexleri çıkartma
 -1:3
 x[-1:3] # YANLI?? ! R da -1.indis yoktur. 
-x[-c(1:3)] #Do??rusu budur.
+x[-c(1:3)] #Doğrusu budur.
 
 
